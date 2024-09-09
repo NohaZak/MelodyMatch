@@ -1,7 +1,7 @@
 # MelodyMatch - Discover Your Perfect Melody
 
 <div style="text-align: right;">
-  <img src="images/logo.png" alt="!Logo" style="width: 150px;">
+  <img src="images/logo.png" alt="Logo" style="width: 150px;">
 </div>
 
 ## Hero Section
