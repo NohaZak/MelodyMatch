@@ -1,5 +1,5 @@
 <div style="text-align: center;">
-  <img src="images/logo.png" alt="Logo" style="width: 150px;">
+  <img src="images/logo.png" alt="Logo" style="width: 150;">
 </div>
 
 # MelodyMatch - Discover Your Perfect Melody
