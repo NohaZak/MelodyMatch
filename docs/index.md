@@ -98,7 +98,7 @@
             <h3>Noha Zakaria</h3>
             <p>Full-stack developer passionate about coding and creating applications.</p>
             <p>
-                <a href="https://www.linkedin.com/in/noha-zakaria-eid">LinkedIn</a> |
+                <a href="https://www.linkedin.com/in/noha-zakaria-eid/">LinkedIn</a> |
                 <a href="https://github.com/NohaZak">GitHub</a> |
                 <a href="https://x.com/nohazakeid">Twitter</a>
             </p>
