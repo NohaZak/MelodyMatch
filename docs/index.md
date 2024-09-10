@@ -77,19 +77,19 @@
     <section id="features" class="features">
         <h2>Key Features</h2>
         <div class="feature">
-            <img src="feature1.jpg" alt="Feature 1">
-            <h3>Feature 1</h3>
-            <p>Description of Feature 1.</p>
+            <img src="feature1.jpg" alt="Personalized Playlists">
+            <h3>Personalized Playlists</h3>
+            <p>MelodyMatch creates personalized playlists based on your listening history and preferences. By analyzing your favorite songs and genres, it curates a unique playlist that matches your musical taste.</p>
         </div>
         <div class="feature">
-            <img src="feature2.jpg" alt="Feature 2">
-            <h3>Feature 2</h3>
-            <p>Description of Feature 2.</p>
+            <img src="feature2.jpg" alt="Real-time Recommendations">
+            <h3>Real-time Recommendations</h3>
+            <p>Get real-time song recommendations as you listen. MelodyMatch uses advanced algorithms to suggest songs that complement your current playlist, ensuring a seamless and enjoyable listening experience.</p>
         </div>
         <div class="feature">
-            <img src="feature3.jpg" alt="Feature 3">
-            <h3>Feature 3</h3>
-            <p>Description of Feature 3.</p>
+            <img src="feature3.jpg" alt="Social Sharing">
+            <h3>Social Sharing</h3>
+            <p>Share your favorite playlists and songs with friends on social media. MelodyMatch allows you to connect with other music enthusiasts, discover new tracks, and share your musical journey with the world.</p>
         </div>
     </section>
     <section id="about" class="about">
