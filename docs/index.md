@@ -92,7 +92,7 @@
     </section>
     <section id="about" class="about">
         <h2>About MelodyMatch</h2>
-        <p>MelodyMatch was inspired by our love for music and the desire to help people discover new songs they will love. This project started as a portfolio project for Holberton School and has grown into a full-fledged application.</p>
+        <p>MelodyMatch was inspired by our love for music and the desire to help people discover new songs they will love. This project started as a portfolio project for ALX Africa and has grown into a full-fledged application.</p>
         <div class="team-member">
             <img src="team-member1.jpg" alt="Team Member 1">
             <h3>Noha Zakaria</h3>
