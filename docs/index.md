@@ -1,56 +1,118 @@
-<div style="text-align: center;">
-  <img src="images/logo.png" alt="Logo" style="width: 150;">
-</div>
+# MelodyMatch Landing Page
 
-# MelodyMatch - Discover Your Perfect Melody
-
-## Welcome to MelodyMatch
-
-**Discover Your Perfect Melody with MelodyMatch**  
-Unleash the power of AI to find the songs you love.  
-Get Started
-
-## About the Project
-
-MelodyMatch is a cutting-edge music recommender application designed to help users discover new music tailored to their tastes. By leveraging advanced machine learning algorithms, MelodyMatch provides personalized song recommendations, seamless Spotify integration, and a unique melody identification feature.
-
-### Key Features
-- **Personalized Recommendations**: Get song suggestions tailored to your taste using advanced machine learning algorithms.
-- **Spotify Integration**: Seamlessly connect with Spotify to fetch and analyze your playlists.
-- **Melody Identification**: Play any melody on the piano and let our AI identify the song for you.
-- **User-Friendly Interface**: Enjoy an intuitive and engaging user experience.
-
-## How It Works
-1. **Connect Your Spotify Account:** Securely authenticate with Spotify to access your playlists.
-2. **Analyze Your Music Preferences:** Our AI analyzes your listening habits and preferences.
-3. **Get Personalized Recommendations:** Receive song suggestions that match your taste.
-4. **Identify Melodies:** Play a melody on the virtual piano and discover the song.
-
-## About the Developer
-
-Hello! I'm **Noha Zakaria**, a passionate full stack developer with around 1 year of experience in the field. I have a strong enthusiasm for coding and creating innovative applications that solve real-world problems. My journey in software development has been driven by a love for technology and a desire to continuously learn and grow.
-
-### My Story
-I started my career as a full stack developer, working on various projects that honed my skills in both front-end and back-end development. My passion for music and technology inspired me to create MelodyMatch, a project that combines these two interests to provide a unique music discovery experience.
-
-### My Mission
-My mission is to connect people with the music they love through innovative technology. I believe that music has the power to bring people together and enhance their lives, and I am dedicated to making this a reality through MelodyMatch.
-
-## Join Us
-Sign Up Now  
-Download the App
-
-## What Our Users Say
-> "MelodyMatch helped me discover so many new songs I love!" – Ahmed Abulezz
-
-> "The melody identification feature is a game-changer!" – Hala Badawy
-
-## Contact Us
-Contact Us: info@melodymatch.com  
-Privacy Policy | Terms of Service
-
-## Links
-- Deployed App
-- GitHub Repository
-
-
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MelodyMatch</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        header nav a {
+            color: #fff;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        .cover {
+            background-image: url('cover-image.jpg');
+            background-size: cover;
+            background-position: center;
+            height: 400px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #fff;
+            text-align: center;
+        }
+        .cover h1 {
+            font-size: 3em;
+        }
+        .cover p {
+            font-size: 1.5em;
+        }
+        .features, .about {
+            padding: 20px;
+            text-align: center;
+        }
+        .features img, .about img {
+            width: 100%;
+            max-width: 300px;
+            height: auto;
+        }
+        .features .feature, .about .team-member {
+            margin: 20px 0;
+        }
+        .video {
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="#features">Features</a>
+            <a href="#about">About</a>
+            <a href="https://deployed-project-link.com">Try MelodyMatch</a>
+        </nav>
+    </header>
+    <div class="cover">
+        <div>
+            <h1>MelodyMatch</h1>
+            <p>Your personalized music recommender</p>
+        </div>
+    </div>
+    <section id="features" class="features">
+        <h2>Key Features</h2>
+        <div class="feature">
+            <img src="feature1.jpg" alt="Feature 1">
+            <h3>Feature 1</h3>
+            <p>Description of Feature 1.</p>
+        </div>
+        <div class="feature">
+            <img src="feature2.jpg" alt="Feature 2">
+            <h3>Feature 2</h3>
+            <p>Description of Feature 2.</p>
+        </div>
+        <div class="feature">
+            <img src="feature3.jpg" alt="Feature 3">
+            <h3>Feature 3</h3>
+            <p>Description of Feature 3.</p>
+        </div>
+    </section>
+    <section id="about" class="about">
+        <h2>About MelodyMatch</h2>
+        <p>MelodyMatch was inspired by our love for music and the desire to help people discover new songs they will love. This project started as a portfolio project for Holberton School and has grown into a full-fledged application.</p>
+        <div class="team-member">
+            <img src="team-member1.jpg" alt="Team Member 1">
+            <h3>Noha Zakaria</h3>
+            <p>Full-stack developer passionate about coding and creating applications.</p>
+            <p>
+                <a href="https://www.linkedin.com/in/noha-zakaria">LinkedIn</a> |
+                <a href="https://github.com/NohaZak">GitHub</a> |
+                <a href="https://twitter.com/noha_zakaria">Twitter</a>
+            </p>
+        </div>
+        <p><a href="https://github.com/NohaZak/MelodyMatch">GitHub Repository</a></p>
+    </section>
+    <section class="video">
+        <h2>Project Video</h2>
+        <video controls>
+            <source src="project-video.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </section>
+</body>
+</html>
